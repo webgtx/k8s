@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: uptime-kuma
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 80
       targetPort: 3001 
-    
-
+      nodePort: 30001 

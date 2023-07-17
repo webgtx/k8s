@@ -4,5 +4,3 @@ metadata:
   name: main-configmap
 data:
   database_url: mongodb-service
-
-  
